@@ -6,6 +6,9 @@ let val;
 // let val2:number = val // Error
 let val3 = (() => false);
 // This will work on type casting
+let abc;
+abc = 44;
+console.log(abc.toFixed());
 function MakeError() {
     throw new Error("Awwwww :-( ");
 }

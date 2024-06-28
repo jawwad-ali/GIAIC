@@ -3,50 +3,49 @@
 // 0-10
 
 // Indexing        0        1          2          3     
-// const teachers = ["Ali", "Ahmed", "Nabeel", "Emmad"]
-// console.log(teachers);
+const teachers = ["Ali", "Ahmed", "Nabeel", "Emmad"]
+console.log(teachers);
 
-//  console.log( teachers[1] );
-//  console.log( teachers[0] );
-//  console.log( teachers[9999] );
+ console.log( teachers[1] );
+ console.log( teachers[0] );
+ console.log( teachers[9999] );
 
 // Add element at the end of an array
-// teachers.push("Hafiz")
-// console.log(teachers);
+teachers.push("Hafiz")
+console.log(teachers);
 
 // Add element at the start of an array
-// teachers.unshift("Haseeb")
-// console.log(teachers);
+teachers.unshift("Haseeb")
+console.log(teachers);
 
-// teachers.pop()
-// console.log(teachers);
+teachers.pop()
+console.log(teachers);
 
-// teachers.shift()
-// console.log(teachers);
+teachers.shift()
+console.log(teachers);
 
 /************************ Splice ************************/
 let fruits = ["Apple", "Banana", "Orange", "Grapes", "Watermelon", "moli", "began", "gajjar", "mattar"]
 console.log(fruits);
 
-// fruits.splice(5 , 2) // For Removal
+fruits.splice(5 , 2) // For Removal
 
-// fruits.splice(5 , 2 , "Flowers" , "Plants") // For addition
+fruits.splice(5 , 2 , "Flowers" , "Plants") // For addition
 
 
-// fruits.splice(0) // Will remove all the elements in an array
-// fruits.splice(-1 , ) // Will print the entire array
-// fruits.splice(0 , 0 , "Laptop" , "Mobile" ) // Wont Remove anything instead will add Laptop and Mobile 
+fruits.splice(0) // Will remove all the elements in an array
+fruits.splice(-1 , ) // Will print the entire array
+fruits.splice(0 , 0 , "Laptop" , "Mobile" ) // Wont Remove anything instead will add Laptop and Mobile 
 
-// console.log("SPLICE",fruits);
+console.log("SPLICE",fruits);
 
 
 
 
 
 /************************ Slice ************************/
-// let splicedFruits = fruits.slice(1,5)
-// console.log("splicedFruits" , splicedFruits);
-
+let splicedFruits = fruits.slice(1,5)
+console.log("splicedFruits" , splicedFruits);
 
 
 

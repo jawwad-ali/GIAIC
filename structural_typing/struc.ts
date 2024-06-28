@@ -22,34 +22,7 @@ sphere = ball
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Example 2
 interface Teacher2 {
     name:string
     python:() => boolean
