@@ -1,0 +1,18 @@
+//Synchronous code
+- The code that runs line by line is called synchronous code.
+
+
+
+There are two Queue's
+1- CallStack
+2- Callback Queue's
+
+
+//Asynchronous code
+1) The code which is not directly enterned into callstack is called Async Code.
+
+2) Async is directly entered into webapi like settimeoute and then it goes to callbackstack and then 
+with the help of event loop it is sent to the callstack.   
+
+3) Async code is sent to callback Queue because it will stop the execution of the entire program. That's why it is 
+sent to callback queue. 
