@@ -1,3 +1,4 @@
+"use strict";
 // Creating Variables
 let ball = {
     diameter: 1001,
@@ -60,7 +61,6 @@ x = {
     laptop: "HP",
     specs: "256 SSD",
 };
-export {};
 /*****
  * Fresh objects are NOT ASSIGNABLE is there are more properties.
  * Stale objects are ASSIGNABLE if there are more properties.

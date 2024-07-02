@@ -1,3 +1,4 @@
+"use strict";
 let firstName = "ali";
 firstName = 23;
 firstName = ["abc", 45, true];
@@ -13,4 +14,3 @@ function MakeError() {
     throw new Error("Awwwww :-( ");
 }
 console.log(MakeError());
-export {};
