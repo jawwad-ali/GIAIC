@@ -64,3 +64,38 @@ Cricket()
     .finally(() => {
     console.log("Flight Pakro");
 });
+// Example 3
+let isFood = false;
+const Cooking = () => {
+    return new Promise((resolve, reject) => {
+        if (isFood) {
+            setTimeout(() => {
+                resolve("Food was Amazing");
+            }, 2000);
+        }
+        else {
+            setTimeout(() => {
+                reject("Gas chali gye");
+            });
+        }
+    });
+};
+Cooking()
+    .then((res) => {
+    console.log(res);
+    return "Biryani";
+})
+    .then((res) => {
+    console.log(res);
+    return "Chicken Biryani";
+})
+    .catch((error) => {
+    console.log(error);
+    return "Order From Hotel";
+})
+    .then((res) => {
+    console.log(res);
+})
+    .finally(() => {
+    console.log("Eated");
+});

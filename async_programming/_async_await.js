@@ -41,6 +41,7 @@ const Fn = async () => {
 };
 const res = Fn();
 console.log(res);
+// Examples 2
 let isCow = false;
 const findAnimal = () => {
     return new Promise((resolve, reject) => {
@@ -66,16 +67,11 @@ findAnimal()
 })
     .then((res) => {
     console.log(res);
-    // return "Hello"
 })
     .finally(() => {
     console.log("Qurbani");
-    return "Distribute Meat";
-})
-    .then((res) => {
-    console.log("Finally Response", res);
 });
-function add() {
-    return 5 + 6;
-}
-add();
+// function add() {
+//     return 5 + 6
+// }
+// add()
